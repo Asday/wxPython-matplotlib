@@ -12,3 +12,9 @@ pip install -r requirements-dev.txt
 # Running tests
 
 `detox`.
+
+# Running the project
+
+```shell
+python src/wxPython_matplotlib
+```
