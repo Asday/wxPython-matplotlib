@@ -11,7 +11,9 @@ pip install -r requirements-dev.txt
 
 # Running tests
 
-`detox`.
+```shell
+detox
+```
 
 # Running the project
 
