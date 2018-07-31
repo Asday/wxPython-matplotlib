@@ -33,5 +33,7 @@ setup(
     ],
     install_requires=[
         'wxPython==4.0.3',
+        'matplotlib==2.2.2',
+        'numpy==1.15.0',
     ],
 )
