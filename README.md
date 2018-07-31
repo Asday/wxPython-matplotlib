@@ -8,9 +8,7 @@ There are [extra steps](linux-prerequisites.md) required if you are on Linux - p
 
 ```shell
 pip install -r requirements-dev.txt
-./watch-flake8
-# In a separate shell
-./watch-tests
+./watch
 ```
 
 # Running tests
