@@ -40,6 +40,9 @@ class PlotPanel(wx.Panel):
 
         self._resize_flag = False
 
+        self.set_binds()
+
+    def set_binds(self):
         self.Bind(wx.EVT_IDLE, self.on_idle)
         self.Bind(wx.EVT_SIZE, self.on_size)
 
