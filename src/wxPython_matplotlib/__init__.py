@@ -30,7 +30,9 @@ class PlotPanel(wx.Panel):
 
         self.figure = matplotlib.figure.Figure()
         self.canvas = matplotlib.backends.backend_wxagg.FigureCanvasWxAgg(
-            self, -1, self.figure,  # What are these arguments?
+            parent=self,
+            id=wx.ID_ANY,
+            figure=self.figure,
         )
 
         self.set_size()
