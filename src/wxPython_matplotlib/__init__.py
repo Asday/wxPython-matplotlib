@@ -117,7 +117,7 @@ class MainFrame(wx.Frame):
 
         self.dataset_index = 0
 
-        self.on_change()
+        self.on_change()  # Kick off the initial figure rendering.
 
         self.setbinds()
 
